@@ -13,7 +13,7 @@ def grafic(numeropersonas):
     ax1.set_title('Paso Personas') # Titol del grafic
     ax1.set_xticks(ind) # Marques sota de cada diagrama
     ax1.yaxis.set_major_locator(plt.NullLocator())
-    ax1.set_xticklabels(('minuto')) # Text sota de cada diagrama en aquest cas HOMES i DONES.
+    ax1.set_xticklabels(('1234567890')) # Text sota de cada diagrama en aquest cas HOMES i DONES.
     ax1.set_yticklabels([])
    
     for rect in rects1: # Dibuixem cadascun dels diagrames que son rectangles.
